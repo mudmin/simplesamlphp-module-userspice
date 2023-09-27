@@ -1,5 +1,5 @@
 {
-    "name": "simplesamlphp/simplesamlphp-module-userspice",
+    "name": "mudmin/simplesamlphp-module-userspice",
     "description": "This is a authentication module for authenticating a user against a SQL database",
     "type": "simplesamlphp-module",
     "keywords": ["simplesamlphp", "userspice"],
