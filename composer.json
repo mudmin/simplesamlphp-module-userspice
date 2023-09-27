@@ -1,0 +1,43 @@
+{
+    "name": "simplesamlphp/simplesamlphp-module-userspice",
+    "description": "This is a authentication module for authenticating a user against a SQL database",
+    "type": "simplesamlphp-module",
+    "keywords": ["simplesamlphp", "userspice"],
+    "license": "LGPL-2.1-or-later",
+    "authors": [
+        {
+            "name": "Dan Hoover",
+            "email": "mudmin@gmail.com"
+        }
+    ],
+    "config": {
+        "preferred-install": {
+            "simplesamlphp/simplesamlphp": "source",
+            "*": "dist"
+        },
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "simplesamlphp/composer-module-installer": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleSAML\\Module\\userspice\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimpleSAML\\Test\\Utils\\": "vendor/simplesamlphp/simplesamlphp/tests/Utils"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "simplesamlphp/assert": "^1.0.0",
+        "simplesamlphp/composer-module-installer": "^1.3.2",
+        "simplesamlphp/simplesamlphp": "*"
+    },
+    "require-dev": {
+        "simplesamlphp/simplesamlphp-test-framework": "^1.5.4"
+    },
+
+}
