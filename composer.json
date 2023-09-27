@@ -38,6 +38,6 @@
     },
     "require-dev": {
         "simplesamlphp/simplesamlphp-test-framework": "^1.5.4"
-    },
+    }
 
 }
