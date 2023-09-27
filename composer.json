@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SimpleSAML\\Test\\Utils\\": "vendor/simplesamlphp/simplesamlphp/tests/Utils"
+            "SimpleSAML\\Test\\Utils\\": "vendor/mudmin/simplesamlphp/tests/Utils"
         }
     },
     "require": {
