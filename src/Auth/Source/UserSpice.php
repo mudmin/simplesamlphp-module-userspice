@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SimpleSAML\Module\sqlauth\Auth\Source;
+namespace SimpleSAML\Module\userspice\Auth\Source;
 
 use Exception;
 use PDO;
