@@ -20,7 +20,7 @@ use SimpleSAML\Logger;
  * @package SimpleSAMLphp
  */
 
-class SQL extends \SimpleSAML\Module\core\Auth\UserPassBase
+class UserSpice extends \SimpleSAML\Module\core\Auth\UserPassBase
 {
     /**
      * The DSN we should connect to.
